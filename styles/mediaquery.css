@@ -856,3 +856,50 @@
     margin: auto;
   }
 }
+
+
+
+
+@media (min-width: 280px) and (max-width: 480px) {
+  .text-2 p {
+      font-size: 0.8rem;
+      color: black;
+  }
+
+  
+  
+  .containerherosection{
+    position: relative !important ;
+    bottom: 32% !important;
+    max-width: 100% !important ;
+    margin: 0 auto !important ;
+    padding: 40px 60px !important ;
+    background-color: #7e6152 !important ;
+    text-align: center !important ;
+    color: black !important ;
+    font-size: 12px !important ;
+  }
+
+  .containerherosection .btn{
+    background-color: aliceblue !important;
+    color: #7e6152 !important ;
+  }
+  
+  .section-2 img{
+    z-index: 999;
+    position: relative;
+    translate: none;
+    rotate: none;
+    scale: none;
+    height: 304px;
+    filter: blur(0px);
+    transform: translate(0px, 0px);
+    opacity: 1;
+    text-align: center;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+}
