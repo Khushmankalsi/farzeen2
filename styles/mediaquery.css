@@ -889,7 +889,7 @@
 ;
     flex-direction: column;
     gap: 1rem;
-    padding: 1px;
+    padding: 1px !important;
 }
   .containerherosection{
     position: relative !important ;
