@@ -245,23 +245,13 @@
 
   .section-2 .col-xl-8{
     position: relative;
-    top: -65px;
+    top: 25px;
     /* background: #00000026; */
     color: aliceblue;
 }
   }
 
-  .containerherosection{
-    position: relative;
-    bottom: 32%;
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 40px 60px;
-    background-color: #7e6152;
-    text-align: center;
-    color: black;
-    font-size: 12px;
-  }
+
   
   .section-2 .icon-box .icon-text-2 {
     font-size: 16px;
@@ -818,5 +808,51 @@
   
   .section-2, .services-section, .section-5 {
     background: white !important;
+  }
+}
+
+
+
+@media (min-width: 480px) and (max-width: 575px) {
+  .text-2 p {
+      font-size: 0.8rem;
+      color: black;
+  }
+
+  
+  
+  .containerherosection{
+    position: relative !important ;
+    bottom: 32% !important;
+    max-width: 100% !important ;
+    margin: 0 auto !important ;
+    padding: 40px 60px !important ;
+    background-color: #7e6152 !important ;
+    text-align: center !important ;
+    color: black !important ;
+    font-size: 12px !important ;
+  }
+
+  .containerherosection .btn{
+    background-color: aliceblue !important;
+    color: #7e6152 !important ;
+  }
+  
+  .section-2 img{
+    z-index: 999;
+    position: relative;
+    translate: none;
+    rotate: none;
+    scale: none;
+    height: 304px;
+    filter: blur(0px);
+    transform: translate(0px, 0px);
+    opacity: 1;
+    text-align: center;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
   }
 }

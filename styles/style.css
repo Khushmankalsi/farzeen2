@@ -930,7 +930,7 @@ min-height: 200px;
       flex:0 0 85%; 
   }
   .cards-wrap{ 
-      flex-wrap:nowrap; 
+      /* flex-wrap:nowrap;  */
   }
 }
 
