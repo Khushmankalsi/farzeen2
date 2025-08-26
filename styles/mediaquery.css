@@ -1,0 +1,822 @@
+/* ===== MEDIA QUERIES FOR RESPONSIVE DESIGN ===== */
+
+/* ===== LARGE DESKTOP (1400px and up) ===== */
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+  
+  .hero-title {
+    font-size: 5rem;
+  }
+  
+  .section-2 .text-1-bold {
+    font-size: 65px !important;
+  }
+}
+
+/* ===== DESKTOP (1200px - 1399px) ===== */
+@media (max-width: 1399.98px) {
+  .hero-title {
+    font-size: 4.5rem;
+  }
+  
+  .section-2 .img-con {
+    right: 40px;
+  }
+  
+  .timeline-title {
+    font-size: 2.8rem;
+  }
+}
+
+/* ===== LAPTOP (992px - 1199px) ===== */
+@media (max-width: 1199.98px) {
+  .nav-menu {
+    gap: 2rem;
+  }
+  
+  .hero-title {
+    font-size: 4rem;
+  }
+  
+  .section-2 .img-con {
+    width: 200px;
+    height: 200px;
+    right: 20px;
+    top: 50px;
+  }
+  
+  .main-con .text-1-italic {
+    font-size: 35px !important;
+    transform: translate(80px, 0px);
+  }
+  
+  .main-con .text-1-bold {
+    font-size: 48px !important;
+  }
+  
+  .services-section {
+    padding: 60px;
+  }
+  
+  .highland-slider-container {
+    height: 400px;
+  }
+  
+  .highland-card-stack {
+    width: 300px;
+    height: 380px;
+  }
+}
+
+/* ===== TABLET (768px - 991px) ===== */
+@media (max-width: 991.98px) {
+  .main-hero-img-section {
+    top: -57px !important;
+  }
+
+  .header {
+    padding: 0.75rem 0;
+  }
+  
+  .nav-container {
+    padding: 0 1.5rem;
+  }
+  
+  .nav-menu {
+    gap: 1.5rem;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+  }
+  
+  .hero-title {
+    font-size: 3.5rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 13px;
+  }
+  
+  .section-2 {
+    padding: 25px !important;
+  }
+  
+  .section-2 .img-con {
+    position: relative !important;
+    width: 100%;
+    height: 300px;
+    right: auto;
+    top: auto;
+    margin-bottom: 30px;
+  }
+  
+  .main-con .text-1-italic {
+    font-size: 30px !important;
+    transform: translate(0px, 0px);
+  }
+  
+  .main-con .text-1-italic::before {
+    left: -50px;
+    width: 40px;
+  }
+  
+  .main-con .text-1-bold {
+    font-size: 42px !important;
+  }
+  
+  .services-section {
+    padding: 40px 20px;
+  }
+  
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "intro intro"
+      "bridal evening"
+      "editorial special";
+  }
+  
+  .intro {
+    min-height: 350px;
+  }
+  
+  .sectiontravel {
+    padding-left: 20px !important;
+  }
+  
+  .sectiontravel .container {
+    padding-left: 20px !important;
+  }
+  
+  .timeline-title {
+    font-size: 2.5rem;
+  }
+  
+  .timeline-progress-line {
+    left: 30px;
+  }
+  
+  .timeline-step::before {
+    left: 30px;
+  }
+  
+  .step-content {
+    margin-left: 80px;
+    padding: 25px;
+  }
+  
+  .highland-slider-container {
+    height: 380px;
+    padding: 30px 0;
+  }
+  
+  .highland-nav-arrow.prev {
+    left: 30px;
+  }
+  
+  .highland-nav-arrow.next {
+    right: 30px;
+  }
+}
+
+/* ===== MOBILE LANDSCAPE (576px - 767px) ===== */
+@media (max-width: 767.98px) {
+  /* HIDE HEADER ON MOBILE */
+  .header {
+    display: none !important;
+  }
+  
+  /* ADD MOBILE HEADER WITH CENTERED LOGO */
+  body::before {
+    content: 'Ferzeen Makeup Artist';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: rgba(139, 113, 102, 0.95);
+    backdrop-filter: blur(10px);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-style: italic;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+  
+  /* Adjust body padding to account for mobile header */
+  body {
+    padding-top: 60px;
+  }
+  
+  .social-sidebar {
+    display: none;
+  }
+  
+  .img-text h6 {
+    font-size: 14px !important;
+    padding: 8px 6px;
+  }
+  
+  .img-text h2 {
+    font-size: 28px !important;
+    padding-bottom: 10px;
+  }
+  
+  .img-text {
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .section-2 .icon-box{
+    display: none !important ;
+  }
+
+  .section-2 .icon-box .fas {
+    font-size: 35px;
+  }
+
+  .section-2 .col-xl-8{
+    position: relative;
+    top: -65px;
+    /* background: #00000026; */
+    color: aliceblue;
+}
+  }
+
+  .containerherosection{
+    position: relative;
+    bottom: 32%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 40px 60px;
+    background-color: #7e6152;
+    text-align: center;
+    color: black;
+    font-size: 12px;
+  }
+  
+  .section-2 .icon-box .icon-text-2 {
+    font-size: 16px;
+    left: 45px;
+  }
+  
+  .section-2 .icon-box .icon-text-1 {
+    font-size: 14px;
+    left: 10px;
+  }
+  
+  .main-con {
+    padding: 25px;
+    margin: 8px;
+  }
+  
+  .main-con .text-1-italic {
+    font-size: 28px !important;
+    transform: translate(0px, 0px);
+  }
+  
+  .main-con .text-1-bold {
+    font-size: 36px !important;
+    line-height: 1.2;
+  }
+  
+  .services-section {
+    padding: 30px 15px;
+  }
+/*   
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "intro"
+      "bridal"
+      "evening"
+      "editorial"
+      "special";
+  } */
+  
+  .intro {
+    min-height: 300px;
+    padding: 15px !important;
+  }
+  
+  .intro h2 {
+    font-size: 28px;
+  }
+  
+  .card {
+    height: 350px;
+  }
+  
+  .sectiontravel .container {
+    padding-left: 15px !important;
+  }
+  
+  .sectiontravel .content-main h2 {
+    font-size: 32px;
+  }
+  
+  .sectiontravel .img {
+    width: 100% !important;
+    transform: translate(0px, 20px) !important;
+    text-align: center;
+  }
+  
+  .sectiontravel .img img {
+    width: 250px !important;
+    height: 350px;
+  }
+  
+  .timeline-title {
+    font-size: 2.2rem;
+  }
+  
+  .step-content {
+    margin-left: 60px;
+    padding: 20px;
+  }
+  
+  .step-number {
+    width: 45px;
+    height: 45px;
+    font-size: 1.1rem;
+  }
+  
+  .step-title {
+    font-size: 1.4rem;
+  }
+  
+  .step-visual {
+    height: 150px;
+    margin-top: 20px;
+  }
+  
+  .step-icon {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .highland-slider-container {
+    height: 350px;
+    padding: 20px 0;
+  }
+  
+  .highland-card-stack {
+    width: 280px;
+    height: 320px;
+  }
+  
+  .highland-nav-arrow {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+  
+  .highland-nav-arrow.prev {
+    left: 15px;
+  }
+  
+  .highland-nav-arrow.next {
+    right: 15px;
+  }
+  
+  .section-5 h2 {
+    font-size: 42px !important;
+  }
+  
+  .section-5 h4 {
+    font-size: 20px !important;
+  }
+  
+  .footer-title {
+    font-size: 2rem;
+  }
+  
+  .footer-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-btn {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+  }
+
+
+/* ===== MOBILE PORTRAIT (480px - 575px) ===== */
+@media (max-width: 575.98px) {
+  /* Mobile header adjustment */
+  body::before {
+    font-size: 1.1rem;
+    padding: 0.8rem;
+  }
+  
+  body {
+    padding-top: 55px;
+  }
+  
+  .img-text h6 {
+    font-size: 12px !important;
+    padding: 6px 4px;
+  }
+  
+  .img-text h2 {
+    font-size: 24px !important;
+    padding-bottom: 8px;
+  }
+  
+  .img-text {
+    padding: 15px;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .btn {
+    padding: 10px 15px;
+    font-size: 12px;
+  }
+  
+  .section-2 {
+    padding: 20px !important;
+  }
+  
+  @media (max-width: 575.98px) {
+    @media (max-width: 575.98px) {
+        .section-4 .main-con {
+            background-color: #7e6152 !important;
+            padding: 30px;
+            margin: 5px;
+            position: relative;
+            margin: auto;
+            /* top: -59px !important; */
+            color: #ffffff;
+            font-weight: 100 !important;
+            border-radius: 12px !important;
+        }
+    }
+}
+  
+  .main-con .text-1-italic {
+    font-size: 24px !important;
+  }
+  
+  .main-con .text-1-bold {
+    font-size: 32px !important;
+  }
+  
+  .section-2 .icon-box .fas {
+    font-size: 30px;
+  }
+  
+  .section-2 .icon-box .icon-text-2 {
+    font-size: 14px;
+    left: 40px;
+    top: 18px;
+  }
+  
+  .section-2 .icon-box .icon-text-1 {
+    font-size: 12px;
+    left: 8px;
+    top: -15px;
+  }
+  
+  .services-section {
+    padding: 20px 10px;
+  }
+  
+  .intro h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .intro p {
+    top: 20px;
+    font-size: 14px;
+  }
+  
+  .card {
+    height: 300px;
+  }
+  
+  .service h3 {
+    font-size: 18px;
+  }
+  
+  .service p {
+    font-size: 13px;
+  }
+  
+  .sectiontravel {
+    padding-left: 15px !important;
+    padding-bottom: 20px !important;
+  }
+  
+  .sectiontravel .content-main {
+    padding: 25px 0px;
+  }
+  
+  .sectiontravel .content-main h2 {
+    font-size: 28px;
+    line-height: 1.3;
+  }
+  
+  .sectiontravel .content-main p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  @media (max-width: 575.98px) {
+    .sectiontravel .img img {
+        width: 100% !important;
+        height: 100% !important;
+    }
+}
+  
+  .timeline-title {
+    font-size: 1.8rem;
+  }
+  
+  .timeline-subtitle {
+    font-size: 1rem;
+  }
+  
+  .step-content {
+    margin-left: 50px;
+    padding: 15px;
+  }
+  
+  .step-number {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  
+  .step-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .step-description {
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+  }
+  
+  .feature-item {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
+  
+  .highland-slider-container {
+    height: 320px;
+  }
+  
+  .highland-card-stack {
+    width: 250px;
+    height: 280px;
+  }
+  
+  .highland-card:nth-child(1) {
+    transform: translateX(-120px) translateZ(0px) rotateY(15deg);
+  }
+  
+  .highland-card:nth-child(3) {
+    transform: translateX(120px) translateZ(0px) rotateY(-15deg);
+  }
+  
+  .highland-nav-arrow {
+    width: 35px;
+    height: 35px;
+    font-size: 14px;
+  }
+  
+  .highland-nav-arrow.prev {
+    left: 10px;
+  }
+  
+  .highland-nav-arrow.next {
+    right: 10px;
+  }
+  
+  .section-5 h2 {
+    font-size: 36px !important;
+  }
+  
+  .section-5 h4 {
+    font-size: 18px !important;
+  }
+  
+  .t-card {
+    width: 280px;
+    padding: 15px;
+  }
+  
+  .title {
+    font-size: 0.9rem;
+  }
+  
+  .role {
+    font-size: 0.75rem;
+  }
+  
+  .desc {
+    font-size: 0.85rem;
+  }
+  
+  .footer-title {
+    font-size: 1.8rem;
+  }
+  
+  .footer-text {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .footer-btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 14px;
+  }
+}
+
+/* ===== EXTRA SMALL MOBILE (320px - 479px) ===== */
+@media (max-width: 479.98px) {
+  /* Mobile header for very small screens */
+  body::before {
+    font-size: 1rem;
+    padding: 0.7rem;
+  }
+  
+  body {
+    padding-top: 50px;
+  }
+  
+  video {
+    height: 100%;
+    top: 25px;
+    width: 105%;
+    left: -10px;
+  }
+  
+@media (max-width: 479.98px) {
+    .img-text {
+        top: 50%;
+        left: 50%;
+        background: none;
+        padding: 10px;
+        height: auto;
+        width: auto;
+        transform: translate(-50%, -50%);
+    }
+}
+  
+  .img-text h6 {
+    font-size: 11px !important;
+    padding: 4px 2px;
+  }
+  
+  .img-text h2 {
+    font-size: 20px !important;
+    padding-bottom: 6px;
+  }
+  
+  .main-con .text-1-italic {
+    font-size: 20px !important;
+  }
+  
+  .main-con .text-1-bold {
+    font-size: 28px !important;
+  }
+  
+  .sectiontravel .content-main h2 {
+    font-size: 24px;
+  }
+  
+  .timeline-title {
+    font-size: 1.6rem;
+  }
+  
+  .highland-card-stack {
+    width: 220px;
+    height: 260px;
+  }
+  
+  .highland-card:nth-child(1) {
+    transform: translateX(-100px) translateZ(0px) rotateY(15deg);
+  }
+  
+  .highland-card:nth-child(3) {
+    transform: translateX(100px) translateZ(0px) rotateY(-15deg);
+  }
+  
+  .section-5 h2 {
+    font-size: 32px !important;
+  }
+  
+  .t-card {
+    width: 260px;
+  }
+  
+  .footer-title {
+    font-size: 1.5rem;
+  }
+}
+
+/* ===== UTILITY CLASSES FOR MOBILE ===== */
+@media (max-width: 767.98px) {
+  .mobile-hidden {
+    display: none !important;
+  }
+  
+  .mobile-center {
+    text-align: center !important;
+  }
+  
+  .mobile-full-width {
+    width: 100% !important;
+  }
+  
+  .mobile-no-margin {
+    margin: 0 !important;
+  }
+  
+  .mobile-small-padding {
+    padding: 15px !important;
+  }
+}
+
+/* ===== LANDSCAPE ORIENTATION FIXES ===== */
+@media (max-height: 500px) and (orientation: landscape) {
+  .img-text {
+    top: 10%;
+    padding: 10px;
+  }
+  
+  .img-text h2 {
+    font-size: 20px !important;
+  }
+  
+  .img-text h6 {
+    font-size: 10px !important;
+  }
+  
+  .timeline-step {
+    margin-bottom: 30px !important;
+  }
+  
+  .step-visual {
+    height: 100px;
+  }
+}
+
+/* ===== ACCESSIBILITY IMPROVEMENTS FOR MOBILE ===== */
+@media (max-width: 767.98px) {
+  /* Larger touch targets */
+  .btn, .footer-btn, .highland-nav-arrow {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  /* Better contrast for small text */
+  .img-text h6, .step-description, .desc {
+    text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  }
+  
+  /* Improved spacing for readability */
+  p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  /* Better focus states for touch */
+  button:focus, a:focus, .nav-link:focus {
+    outline: 2px solid #7e6152;
+    outline-offset: 2px;
+  }
+}
+
+/* ===== PRINT STYLES (BONUS) ===== */
+@media print {
+  .header, .social-sidebar, .highland-nav-arrow, .footer {
+    display: none !important;
+  }
+  
+  body {
+    padding-top: 0;
+    background: white !important;
+    color: black !important;
+  }
+  
+  .section-2, .services-section, .section-5 {
+    background: white !important;
+  }
+}
