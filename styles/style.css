@@ -1490,7 +1490,7 @@ min-height: 200px;
   bottom: 32%;
   max-width: 1100px;
   margin: auto;
-  padding: 70px 0px 40px 68px;
+  padding:none;
   background-color: #00000028;
   text-align: center;
   color: black;
