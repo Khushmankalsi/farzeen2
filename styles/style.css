@@ -438,6 +438,38 @@ video {
   color: var(--secondary-warm-brown);
 }
 
+
+
+.hero-content{
+  position: relative !important ;
+  /* bottom: 32% !important; */
+  max-width: 100% !important ;
+  margin: 6dvh auto !important;
+  padding: 40px 60px !important ;
+  background-color: #7e6152 !important ;
+  text-align: center !important ;
+  color: black !important ;
+  font-size: 12px !important ;
+}
+
+.hero-content .btn {
+    text-decoration: none !important;
+    display: inline;
+    background-color: aliceblue !important;
+    color: #7e6152 !important;
+}
+
+.hero-content .hero-subtitle{
+  opacity: 1 !important;
+  color: #ffffff !important;
+}
+
+.hero-content .hero-title{
+  transform: translate(0) !important;
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+
 .section-2 .icon-box{
   position: relative;
   top: 4px !important;

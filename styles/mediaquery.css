@@ -6,6 +6,10 @@
     max-width: 1320px;
   }
   
+  .hero-content{
+    display: none !important;
+  }
+
   .hero-title {
     font-size: 5rem;
   }
@@ -21,6 +25,9 @@
     font-size: 4.5rem;
   }
   
+  .hero-content{
+    display: none !important;
+  }
   .section-2 .img-con {
     right: 40px;
   }
@@ -34,6 +41,10 @@
 @media (max-width: 1199.98px) {
   .nav-menu {
     gap: 2rem;
+  }
+
+  .hero-content{
+    display: none !important;
   }
   
   .hero-title {
@@ -76,6 +87,9 @@
     top: -57px !important;
   }
 
+  .hero-content{
+    display: none !important;
+  }
   .header {
     padding: 0.75rem 0;
   }
@@ -281,16 +295,7 @@
   .services-section {
     padding: 30px 15px;
   }
-/*   
-  .grid {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "intro"
-      "bridal"
-      "evening"
-      "editorial"
-      "special";
-  } */
+  
   
   .intro {
     min-height: 300px;
@@ -454,6 +459,17 @@
             border-radius: 12px !important;
         }
     }
+}
+
+.grid {
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "intro"
+    "bridal"
+    "evening"
+    "editorial"
+    "special";
+  gap: 20px;
 }
   
   .main-con .text-1-italic {
@@ -646,6 +662,18 @@
     padding: 0.7rem;
   }
   
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "intro"
+      "bridal"
+      "evening"
+      "editorial"
+      "special";
+    gap: 20px;
+  }
+
   body {
     padding-top: 50px;
   }
@@ -749,6 +777,17 @@
   .img-text {
     top: 10%;
     padding: 10px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "intro"
+      "bridal"
+      "evening"
+      "editorial"
+      "special";
+    gap: 20px;
   }
   
   .img-text h2 {
@@ -893,9 +932,22 @@ background-color: none !important;
     gap: 1rem;
     padding: 1px !important;
 }
+
+
+.grid {
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "intro"
+    "bridal"
+    "evening"
+    "editorial"
+    "special";
+  gap: 20px;
+}
   .containerherosection{
     position: relative !important ;
     bottom: 32% !important;
+    display: none !important;
     max-width: 100% !important ;
     margin: 0 auto !important ;
     padding: 40px 60px !important ;
