@@ -1487,7 +1487,7 @@ min-height: 200px;
 
 .containerherosection {
   position: absolute;
-  bottom: 32%;
+  top: 50%;
   max-width: 1100px;
   margin: auto;
   padding:none;
@@ -1495,7 +1495,8 @@ min-height: 200px;
   text-align: center;
   color: black;
   font-size: 12px;
-  right: 91px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
 
