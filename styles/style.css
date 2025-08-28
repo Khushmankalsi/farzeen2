@@ -552,34 +552,6 @@ video {
   text-align: left;
 }
 
-.intro .gauge {
-  position: absolute;
-  left: 24px;
-  right: 24px;
-  bottom: 24px;
-  height: 210px;
-  border-radius: 16px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-start;
-  opacity: .8;
-}
-
-/* .gauge:before {
-  content: "";
-  width: 72%;
-  height: 72%;
-  border: 2px solid rgba(126, 97, 82, 0.3);
-  border-top-color: transparent;
-  border-left-color: transparent;
-  border-right-color: transparent;
-  border-bottom-left-radius: 400px;
-  border-bottom-right-radius: 400px;
-  position: absolute;
-  left: 14%;
-  bottom: 8px;
-} */
-
 .needle {
   width: 140px;
   height: 14px;
